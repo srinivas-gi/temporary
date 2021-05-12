@@ -3,9 +3,6 @@ repo init --depth=1 --no-repo-verify -u git://github.com/DerpFest-11/manifest.gi
 git clone https://github.com/pocox3pro/Local-Manifests.git --depth 1 -b master .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
-#Don't use rm -rf inside script
-rm -rf device/generic/opengl-transport
-
 # build rom
 source build/envsetup.sh
 lunch derp_vayu-userdebug
