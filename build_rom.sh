@@ -5,7 +5,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # Apply source patch(es)
 cd vendor/lineage
-wget https://oshi.at/CJHLPo -O "1.patch"
+curl -L0 https://oshi.at/hzVBQf/TBKk.patch -o "1.patch"
 git apply 1.patch
 cd .. && cd ..
 
